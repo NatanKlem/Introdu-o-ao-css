@@ -1,0 +1,117 @@
+body {
+ margin: 0;    
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+ line-height: 20px; 
+ text-indent: 50px;   
+ text-align: justify;
+ color: white;
+}
+
+h2{
+ text-transform: uppercase;  
+ letter-spacing: 5px; 
+ word-spacing: 10px; 
+ color: white;
+}
+
+h3{text-transform: uppercase;  
+    letter-spacing: 5px; 
+    word-spacing: 10px; 
+    color: white;
+}
+
+.ingleft{
+ float: left;
+ margin: 10px;   
+}
+
+#total{
+   width: 920px;
+   height: auto; 
+   margin: auto;
+}
+
+#topo{
+  width: 920px;  
+  height: auto;  
+  float: left; 
+  margin-top: 10px;
+  margin-bottom: 10px;  
+  
+}
+
+#logo{
+ width: 180px;   
+ height: 69px;   
+ float: left;  
+}
+
+#menu {
+ width: auto;
+ height: auto;
+ float: right;
+ margin-top: 25px;
+}
+
+#menu a{
+ color:white; 
+ text-decoration: none;
+ display: inline-block;
+ padding: 5px 25px 5px 25px; 
+ font-family: tahoma;
+ font-size: 14px;
+}
+
+#menu a:hover{
+ background-color: rgb(146, 14, 14);   
+}
+
+#banner{
+ width: 920px;    
+ height: 300px;   
+ float: left;   
+}
+
+#conteudo{
+ width: 920px;
+ min-width: 200px;
+ float: left;  
+}
+
+#rodape{
+ width: 920px;
+ height: 40px;
+ background-color: rgb(146, 14, 14);
+ float: left;   
+ margin-top: 10px;
+ 
+}
+
+input[type=text]{
+  width: 250px;
+  border: none;
+  background-color:white;
+  color: black;
+}
+
+input[type=submit]{
+  width: 90px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+textarea{
+  border: none;
+  background-color: white;
+  width: 350px;
+  height: 120px;
+}
+
+form{
+  color:white;
+}
